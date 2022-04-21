@@ -141,7 +141,7 @@ router.get('/api/employes', (req, res) => {
 
 8// Return employees object whose name is equal Name. Name can take different values. If the user is not found , return an error message.
 
-/*router.param ('name', (req, res, next, name) => {
+/router.param ('name', (req, res, next, name) => {
     const employee = employees.find(employee => employee.name === name);
     if (employee) {
         req.employee = employee;
@@ -153,7 +153,7 @@ router.get('/api/employes', (req, res) => {
 
 router.get ('/api/employees/:name', (req, res) => {
     res.json(req.employee);
-});*/
+});
 
 
 module.exports = router;

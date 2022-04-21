@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "06ea0cda-49b6-4e7d-8fbc-c026de7e3001",
+		"name": "EXPRESS-INTRO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ejercicio-1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-2",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejerecicio-2.1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-4",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-5",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ana\",\r\n    \"age\": 55,\r\n    \"phone\": {\r\n      \"personal\": \"623-252-232\",\r\n      \"work\": \"233-526-888\",\r\n      \"ext\": \"1569\"\r\n    },\r\n    \"privileges\": \"admin\",\r\n    \"favorites\": {\r\n      \"artist\": \"rafael\",\r\n      \"food\": \"hot dog\"\r\n    },\r\n    \"finished\": [\r\n      25,\r\n      2\r\n    ],\r\n    \"badges\": [\r\n      \"yellow\",\r\n      \"green\"\r\n    ],\r\n    \"points\": [\r\n      {\r\n        \"points\": 98,\r\n        \"bonus\": 89\r\n      },\r\n      {\r\n        \"points\": 53,\r\n        \"bonus\": 15\r\n      }\r\n    ]\r\n  }\r\n\r\n      ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-7",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio-8",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
