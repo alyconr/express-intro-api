@@ -1,0 +1,26 @@
+{
+  "name": "express-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "jsonschema": "^1.4.0",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
